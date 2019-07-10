@@ -57,9 +57,8 @@ int steuerMenu()
 				break; 
 			case 101: printf("%s", "Georgi Kehayov\n");
 				break;
-
 			case 20:   printf("%s", "Bjoern Mackensy");
-
+				break;
 			case 18: printf("%s", "Michael Bojtschuk");
 				break;
 
