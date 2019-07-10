@@ -7,6 +7,7 @@
 #define ITEM_KOM3   3
 #define ITEM_KOM101 101
 #define ITEM_ENDE   4
+#define ITEM_KOM20  20
 
 
 int steuerMenu(void);
@@ -27,6 +28,7 @@ int steuerMenu()
 		{
 			printf("%s", ".....\n");
 		}
+		*/
 		printf("$:");
 		if (readInteger(&kommando) != NO_ERROR)
 		{
@@ -39,19 +41,25 @@ int steuerMenu()
 				break;
 			case  1:   printf("%s", "Michael Sauer\n");
 				break;
-			case  2:   printf("%s", "...\n");
+			case  2:   printf("%s", "Noah Hoffmann\n");
 				break;
 			case  3:   printf("%s", ",,,\n");
 				break;
-			case  4:   printf("%s", "---\n");
+			case  4:   printf("%s", "Vivien Kraemer\n");
 				break; 
-			case  19:   printf("%s", "Nick Paul\n");
+			case  5:   printf("%s", "Vivien Kraemer\n");
 				break;
 			case 101: printf("%s", "Georgi Kehayov\n");
 				break;
+
+			case 20:   printf("%s", "Bjoern Mackensy");
+
+			case 18: printf("%s", "Michael Bojtschuk");
+				break;
+
 			default: printf("\nkein Kommando\n");
 		}
-	} while (kommando != 4);
+	} while (kommando != 20);
 
 	return(0);
 }
