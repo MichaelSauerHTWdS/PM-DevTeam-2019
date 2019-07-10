@@ -7,6 +7,7 @@
 #define ITEM_KOM3   3
 #define ITEM_KOM101 101
 #define ITEM_ENDE   4
+#define ITEM_KOM20  20
 
 
 int steuerMenu(void);
@@ -44,8 +45,11 @@ int steuerMenu()
 				break; 
 			case 101: printf("%s", "Georgi Kehayov\n");
 				break;
+			case 20:   printf("%s", "Bjoern Mackensy");
+				break;
 			case 18: printf("%s", "Michael Bojtschuk");
 				break;
+
 			default: printf("\nkein Kommando\n");
 		}
 	} while (kommando != 20);
