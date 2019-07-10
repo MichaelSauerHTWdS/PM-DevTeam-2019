@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-#include <termios.h>
+//#include <termios.h>
 #include <stdlib.h>
 #include <limits.h>
 
