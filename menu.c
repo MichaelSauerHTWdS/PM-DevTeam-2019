@@ -21,7 +21,7 @@ int steuerMenu()
 	int kommando = 1;
 
 	do
-	{		
+	{
 		printf("$:");
 		if (readInteger(&kommando) != NO_ERROR)
 		{
@@ -34,7 +34,9 @@ int steuerMenu()
 				break;
 			case  1:   printf("%s", "Michael Sauer\n");
 				break;
-			case  2:   printf("%s", "Janet Schmidt\n");
+			case  19:   printf("%s", "Janet Schmidt\n");
+
+			case  2:   printf("%s", "Noah Hoffmann\n");
 				break;
 			case  3:   printf("%s", ",,,\n");
 				break;
@@ -42,9 +44,11 @@ int steuerMenu()
 				break; 
 			case 101: printf("%s", "Georgi Kehayov\n");
 				break;
+			case 18: printf("%s", "Michael Bojtschuk");
+				break;
 			default: printf("\nkein Kommando\n");
 		}
-	} while (kommando != 4);
+	} while (kommando != 20);
 
 	return(0);
 }
