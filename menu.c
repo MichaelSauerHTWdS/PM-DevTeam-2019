@@ -21,7 +21,7 @@ int steuerMenu()
 
 	do
 	{
-		for (int i = 0; i < (sizeof(komMenu) / sizeof(char *)); i++)
+		for (int i = 0; i < (sizeof(20) / sizeof(char *)); i++)
 		{
 			printf("%s", ".....\n");
 		}
@@ -43,6 +43,7 @@ int steuerMenu()
 				break;
 			case  4:   printf("%s", "---\n");
 				break;
+			case  19:   printf("%s", "Nick Paul\n");
 			default: printf("\nkein Kommando\n");
 		}
 	} while (kommando != 4);
