@@ -43,9 +43,11 @@ int steuerMenu()
 				break;
 			case  4:   printf("%s", "---\n");
 				break;
+			case 18: printf("%s", "Michael Bojtschuk");
+				break;
 			default: printf("\nkein Kommando\n");
 		}
-	} while (kommando != 4);
+	} while (kommando != 20);
 
 	return(0);
 }
