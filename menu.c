@@ -49,6 +49,8 @@ int steuerMenu()
 				break;
 			case  4:   printf("%s", "Vivien Kraemer\n");
 				break; 
+			case  8:   printf("%s", "Patrick Forster\n");
+				break; 	
 			case  19:   printf("%s", "Nick Paul\n");
 				break;
 			case 101: printf("%s", "Georgi Kehayov\n");
