@@ -20,11 +20,7 @@ int steuerMenu()
 	int kommando = 1;
 
 	do
-	{
-		for (int i = 0; i < (sizeof(komMenu) / sizeof(char *)); i++)
-		{
-			printf("%s", ".....\n");
-		}
+	{		
 		printf("$:");
 		if (readInteger(&kommando) != NO_ERROR)
 		{
@@ -37,7 +33,7 @@ int steuerMenu()
 				break;
 			case  1:   printf("%s", "Michael Sauer\n");
 				break;
-			case  2:   printf("%s", "...\n");
+			case  2:   printf("%s", "Janet Schmidt\n");
 				break;
 			case  3:   printf("%s", ",,,\n");
 				break;
