@@ -27,7 +27,7 @@ int steuerMenu()
 		{
 			printf("%s", ".....\n");
 		}
-		*/
+
 
 		printf("$:");
 		if (readInteger(&kommando) != NO_ERROR)
@@ -47,17 +47,15 @@ int steuerMenu()
 				break;
 			case  4:   printf("%s", "Vivien Kraemer\n");
 				break; 
-<<<<<<< HEAD
+			case 99:	printf("%s", "Issam sakr\n");
+				break;
 			case  8:   printf("%s", "Patrick Forster\n");
 				break; 	
 			case  19:   printf("%s", "Nick Paul\n");
-=======
+
 			case  16:   printf("%s", "Janet Schmidt\n");
->>>>>>> 36683659e60092ffde5c36d4af972064413b6050
 				break;
 			case 18: printf("%s", "Michael Bojtschuk");
-				break;
-			case  19:   printf("%s", "Nick Paul\n");
 				break;
 			case 20:   printf("%s", "Bjoern Mackensy");
 				break;
