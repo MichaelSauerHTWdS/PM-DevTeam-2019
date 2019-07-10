@@ -6,6 +6,7 @@
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
+#define ITEM_KOM20  20
 
 
 int steuerMenu(void);
@@ -21,7 +22,7 @@ int steuerMenu()
 
 	do
 	{
-		for (int i = 0; i < (sizeof(komMenu) / sizeof(char *)); i++)
+		for (int i = 0; i < 20; i++)
 		{
 			printf("%s", ".....\n");
 		}
@@ -43,6 +44,7 @@ int steuerMenu()
 				break;
 			case  4:   printf("%s", "---\n");
 				break;
+			case 20:   printf("%s", "Bjoern Mackensy");
 			default: printf("\nkein Kommando\n");
 		}
 	} while (kommando != 4);
