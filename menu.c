@@ -57,10 +57,15 @@ int steuerMenu()
 				break; 
 			case 101: printf("%s", "Georgi Kehayov\n");
 				break;
+
 			case 20:   printf("%s", "Bjoern Mackensy");
+
+			case 18: printf("%s", "Michael Bojtschuk");
+				break;
+
 			default: printf("\nkein Kommando\n");
 		}
-	} while (kommando != 4);
+	} while (kommando != 20);
 
 	return(0);
 }
