@@ -5,6 +5,7 @@
 #define ITEM_KOM1   1
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
+#define ITEM_KOM101 101
 #define ITEM_ENDE   4
 
 
@@ -37,7 +38,9 @@ int steuerMenu()
 				break;
 			case  3:   printf("%s", ",,,\n");
 				break;
-			case  4:   printf("%s", "---\n");
+			case  4:   printf("%s", "Vivien Kraemer\n");
+				break; 
+			case 101: printf("%s", "Georgi Kehayov\n");
 				break;
 			default: printf("\nkein Kommando\n");
 		}
